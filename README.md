@@ -20,7 +20,7 @@ HSOD-BIT-V2 overcomes limitations in scale, quality, and challenge of current da
 ![dataset](https://github.com/QYH-BIT/HSOD-BIT-V2/blob/main/figure/dataset.jpg)
 
 ##### Challenge Attributes
-To evaluate HSOD method thoroughly, we categorize challenges into 5 attributes: Complex Background (CB), Color Similarity (CS), High Dynamic Range (HDR), Small Object (SO), and Material Similarity (MS), detailed in table below. Each challenging data is classified into one or more attributes based on its specific characteristics.
+To evaluate HSOD method thoroughly, we categorize challenges into 5 attributes: `Complex Background (CB)`, `Color Similarity (CS)`, `High Dynamic Range (HDR)`, `Small Object (SO)`, and `Material Similarity (MS)`, detailed in table below. Each challenging data is classified into one or more attributes based on its specific characteristics.
 
 | Challenge Attribute  | Description |
 | ------------- | ------------- |
@@ -31,7 +31,7 @@ To evaluate HSOD method thoroughly, we categorize challenges into 5 attributes: 
 | MS  |  Material Similarity (24): Foreground and background materials are similar, and their spectral curves are close  |
 
 ##### Natural Backgrounds
-HSOD-BIT-V2 comprises 8 natural backgrounds around university campus and surrounding areas under different weather conditions: lawn (18%), fallen leaves (5%), path (21%), wall (19%), playgrounds (10%), sky (9%), snowfield (2%), and other natural settings. Notably, snowfield and fallen leaves scenes are introduced to the field for `the first time`.  Each scene type presents a variety of scenarios, characterized by different seasons, lighting conditions, and background clusters, as depicted below.
+HSOD-BIT-V2 comprises 8 natural backgrounds around university campus and surrounding areas under different weather conditions: `lawn (18%)`, `fallen leaves (5%)`, `path (21%)`, `wall (19%)`, `playgrounds (10%)`, `sky (9%)`, `snowfield (2%)`, and other natural settings. Notably, snowfield and fallen leaves scenes are introduced to the field for `the first time`.  Each scene type presents a variety of scenarios, characterized by different seasons, lighting conditions, and background clusters, as depicted below.
 
 ![scenes](https://github.com/QYH-BIT/HSOD-BIT-V2/blob/main/figure/scenes.jpg)
 
