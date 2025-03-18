@@ -55,6 +55,6 @@ def dataload(path):
 If you use this benchmark in your research, please cite this project.
 
 ```
-Paper will come soon.
+Paper will be coming soon.
 ```
 
