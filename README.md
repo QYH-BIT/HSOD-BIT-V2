@@ -11,18 +11,27 @@ Salient Object Detection (SOD) is crucial in computer vision, yet RGB-based meth
 
 ## Dataset
 
-HSOD-BIT-V2 overcomes limitations in scale, quality, and challenge of current datasets. It surpassing existing HS-SOD and HSOD-BIT, with `500 HSIs`,  `1240×1680 spatial resolutions`, and `200 spectral bands`. 
-Unlike HS-SOD, which focuses on common scenes, and HSOD-BIT, with limited challenging data, HSOD-BIT-V2 covers 8 natural backgrounds with diverse and challenging data, highlighting small objects and foreground-background similarity.
-
-HSOD-BIT-V2, the largest and most challenging hyperspectral saliency object detection benchmark dataset to date, has been released. Our previous work, HOSD-BIT (V1), has been released at [DMSSN](https://github.com/q2479036243/DMSSN/tree/main).
+HSOD-BIT-V2 is a new and the largest, most challenging HSOD benchmark dataset to date, now released. Our previous work, the first large-scale, high-quality HSOD benchmark dataset HOSD-BIT (V1), is also available for access on [DMSSN](https://github.com/q2479036243/DMSSN/tree/main).
 
 #### Description
 
-HSOD-BIT-V2 overcomes limitations in scale, quality, and challenge of current datasets. It surpassing existing HS-SOD and HSOD-BIT, with `500 HSIs`,  `1240×1680 spatial resolutions`, and `200 spectral bands`. 
-Unlike HS-SOD, which focuses on common scenes, and HSOD-BIT, with limited challenging data, HSOD-BIT-V2 covers 8 natural backgrounds with diverse and challenging data, highlighting small objects and foreground-background similarity.
-HSOD-BIT is the first large-scale, high-quality benchmark dataset for hyperspectral salient object detection, aimed at leveraging the advantages of spectral information to achieve higher precision in salient object detection tasks. Addressing the data requirements of contemporary deep learning models, this dataset provides pixel-level manual annotations for 319 hyperspectral data cubes and generates corresponding pseudo-color images. Each data cube contains 200 bands covering spectral information from visible light to near-infrared bands, with a spatial resolution of up to 1240×1680 pixels. In addition to conventional scenes, this dataset also specifically gathers challenging data to reflect the complexity of the real world, such as similar background interference, uneven lighting, overexposure, and other challenging scenarios. This further enhances the practicality and evaluation capabilities of the dataset.
+HSOD-BIT-V2 overcomes limitations in scale, quality, and challenge of current datasets, aimed at leveraging the advantages of spectral and showcase the complexity of real-world scenarios. Building upon [HOSD-BIT (V1)](https://github.com/q2479036243/DMSSN/tree/main), it further extends the data scale and diversity of backgrounds while introducing challenge attributes. This dataset provides pixel-level manual annotations for `500 hyperspectral data cubes` and generates corresponding pseudo-color images. Each data cube contains `200 bands` covering spectral information from visible light to near-infrared bands, with a spatial resolution of up to `1240×1680 pixels`. In addition to common scenes, this dataset covers `8 natural backgrounds` and `5 challenge attributes` with diverse and challenging data, highlighting small objects and foreground-background similarity.
 
-![图片1](https://github.com/QYH-BIT/HSOD-BIT-V2/blob/main/figure/dataset.jpg)
+![dataset](https://github.com/QYH-BIT/HSOD-BIT-V2/blob/main/figure/dataset.jpg)
+
+##### Challenge Attributes
+To evaluate HSOD method thoroughly, we categorize challenges into 5 attributes: Complex Background (CB), Color Similarity (CS), High Dynamic Range (HDR), Small Object (SO), and Material Similarity (MS), detailed in table below. Each challenging data is classified into one or more attributes based on its specific characteristics.
+
+| Challenge Attribute  | Description |
+| ------------- | ------------- |
+| CB  |  Complex Background (282): The color and spectral characteristics of the background are complex  |
+| CS  |  Color Similarity (160): The object and background color features are similar, but spectral features are different  |
+| HDR |  High Dynamic Range (134): The light intensity in the scene has a high dynamic range, including overexposure and shadow scenes  |
+| SO  |  Small Object (185): The object size is very small, occupying less than 1\% of the image area  |
+| MS  |  Material Similarity (24): Foreground and background materials are similar, and their spectral curves are close  |
+
+##### Natural Backgrounds
+HSOD-BIT-V2 comprises 8 natural backgrounds around university campus and surrounding areas under different weather conditions: lawn ($18\%$), fallen leaves ($5\%$), path ($21\%$), wall ($19\%$), playgrounds ($10\%$), sky ($9\%$), snowfield ($2\%$), and other natural settings, ensuring diversity and representativeness within the dataset. It encompasses eight real-world scene types, including unprecedented scenes such as fallen leaves and snowfields. Each scene type presents a variety of scenarios, characterized by different seasons, lighting conditions, and background clusters, as depicted below.
 
 #### Download: 
 
