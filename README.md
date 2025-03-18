@@ -1,4 +1,4 @@
-# HSOD-BIT-V2
+# HSOD-BIT-V2 AAAI-25
 
 ## Paper
 
