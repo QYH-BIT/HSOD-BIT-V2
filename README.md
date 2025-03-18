@@ -39,3 +39,22 @@ HSOD-BIT-V2 comprises 8 natural backgrounds around university campus and surroun
 
 Dataset is avaliable at [HSOD-BIT-V2](https://pan.baidu.com/s/1I8Ysfi7LB5ujuuedV2PwOg?pwd=tftf).
 
+## Important Update
+
+For more efficient data storage, the hyperspectral image data format is changed from the original MAT to H5.
+
+```python
+import h5py
+def dataload(path):
+    data = h5py.File(path, "r")['dataset'][:]
+    return data
+```
+
+## Citation
+
+If you use this benchmark in your research, please cite this project.
+
+```
+Paper will come soon.
+```
+
