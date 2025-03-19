@@ -56,7 +56,7 @@ def dataload(path):
 
 ## Citation
 
-If you use this benchmark in your research, please cite this project.
+If you use this benchmark in your research, please cite this project. This citation format will be updated after the ·official publication of AAAI 2025·.
 
 ```
 @article{qiu2025HSOD,
