@@ -1,8 +1,12 @@
 # HSOD-BIT-V2 AAAI-25
 
+## TLDR
+Paper is avaliable at [arXiv](http://arxiv.org/abs/2503.13906). 
+Dataset is avaliable at [HSOD-BIT-V2](https://pan.baidu.com/s/1I8Ysfi7LB5ujuuedV2PwOg?pwd=tftf)
+
 ## Paper
 
-The paper "HSOD-BIT-V2: A New Challenging Benchmarkfor Hyperspectral Salient Object Detection" has been accepted at `AAAI 2025`. Paper is avaliable at [arxiv](http://arxiv.org/abs/2503.13906).
+The paper "HSOD-BIT-V2: A New Challenging Benchmarkfor Hyperspectral Salient Object Detection" has been accepted at `AAAI 2025`. Paper now is avaliable at [arxiv](http://arxiv.org/abs/2503.13906). 
 
 #### Abstract
 Salient Object Detection (SOD) is crucial in computer vision, yet RGB-based methods face limitations in challenging scenes, such as small objects and similar color features. Hyperspectral images provide a promising solution for more accurate Hyperspectral Salient Object Detection (HSOD) by abundant spectral information, while HSOD methods are hindered by the lack of extensive and available datasets. In this context, we introduce HSOD-BIT-V2, the largest and most challenging HSOD benchmark dataset to date. Five distinct challenges focusing on small objects and foreground-background similarity are designed to emphasize spectral advantages and real-world complexity. To tackle these challenges, we propose Hyper-HRNet, a high-resolution HSOD network. Hyper-HRNet effectively extracts, integrates, and preserves effective spectral information while reducing dimensionality by capturing the self-similar spectral features. Additionally, it conveys fine details and precisely locates object contours by incorporating comprehensive global information and detailed object saliency representations. Experimental analysis demonstrates that Hyper-HRNet outperforms existing models, especially in challenging scenarios.
@@ -37,7 +41,7 @@ HSOD-BIT-V2 comprises 8 natural backgrounds around university campus and surroun
 
 #### Download: 
 
-Dataset is avaliable at [HSOD-BIT-V2](https://pan.baidu.com/s/1I8Ysfi7LB5ujuuedV2PwOg?pwd=tftf).
+Dataset is avaliable at [https://pan.baidu.com/s/1I8Ysfi7LB5ujuuedV2PwOg?pwd=tftf](https://pan.baidu.com/s/1I8Ysfi7LB5ujuuedV2PwOg?pwd=tftf).
 
 ## Important Update
 
@@ -55,6 +59,11 @@ def dataload(path):
 If you use this benchmark in your research, please cite this project.
 
 ```
-Paper will be coming soon.
+@article{qiu2025HSOD,
+  author    = {Yuhao Qiu and Shuyan Bai and Tingfa Xu and Peifu Liu and Haolin Qin and Jianan Li},
+  title     = {HSOD-BIT-V2: A New Challenging Benchmarkfor Hyperspectral Salient Object Detection},
+  journal   = {arXiv preprint arXiv:2503.13906},
+  year      = {2025}
+}
 ```
 
