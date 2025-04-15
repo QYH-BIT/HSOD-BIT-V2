@@ -57,14 +57,17 @@ def dataload(path):
 
 ## Citation
 
-If you use this benchmark in your research, please cite this project. This citation format will be updated after the `official publication of AAAI 2025`.
+If you use this benchmark in your research, please cite this project. 
 
 ```
-@article{qiu2025HSOD,
-  author    = {Yuhao Qiu and Shuyan Bai and Tingfa Xu and Peifu Liu and Haolin Qin and Jianan Li},
-  title     = {HSOD-BIT-V2: A New Challenging Benchmarkfor Hyperspectral Salient Object Detection},
-  journal   = {arXiv preprint arXiv:2503.13906},
-  year      = {2025}
+@inproceedings{qiu2025hsod,
+  title={HSOD-BIT-V2: A Challenging Benchmark for Hyperspectral Salient Object Detection},
+  author={Qiu, Yuhao and Bai, Shuyan and Xu, Tingfa and Liu, Peifu and Qin, Haolin and Li, Jianan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={6},
+  pages={6630--6638},
+  year={2025}
 }
 ```
 
